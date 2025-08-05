@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mistry Nakiya</h1>
+        <p>Web Designer & Developer</p>
+    </header>
+
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-button active" data-tab="about">About Me</button>
+            <button class="tab-button" data-tab="projects">Projects</button>
+            <button class="tab-button" data-tab="skills">Skills</button>
+            <button class="tab-button" data-tab="contact">Contact</button>
+        </div>
+
+        <div class="tab-content-container">
+            <div id="about" class="tab-content active">
+                <h2>About Me</h2>
+                <p>Hello! I am a passionate web developer with experience in creating dynamic and responsive websites. I specialize in front-end development and love to build projects that are both functional and visually appealing.</p>
+            </div>
+
+        <div id="projects" class="tab-content">
+    <h2>My Projects</h2>
+    <ul>
+        <li>
+            <h3>Simple Recipe Finder</h3>
+            <p>A web app built with vanilla JavaScript that fetches recipe data from a public API, allowing users to search and view recipe details. This project demonstrates asynchronous programming and dynamic content generation.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, TheMealDB API</p>
+            <a href="[Link to Live Demo]" target="_blank">Live Demo</a> |
+            <a href="[Link to GitHub Repo]" target="_blank">GitHub Repo</a>
+        </li>
+        <br>
+        <li>
+            <h3>Creative Personal Portfolio</h3>
+            <p>A responsive, single-page website designed and built from scratch to showcase my work. This project focuses on modern CSS techniques like animations and responsive design principles.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="[Link to Live Demo]" target="_blank">Live Demo</a> |
+            <a href="[Link to GitHub Repo]" target="_blank">GitHub Repo</a>
+        </li>
+    </ul>
+</div>
+
+            <div id="skills" class="tab-content">
+                <h2>My Skills</h2>
+                <p>I have experience with the following technologies and tools:</p>
+                <ul>
+                    <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Frameworks:</strong> React, Vue.js (mention your skills)</li>
+                    <li><strong>Tools:</strong> Figma, Git, VS Code</li>
+                </ul>
+            </div>
+
+            <div id="contact" class="tab-content">
+                <h2>Get in Touch</h2>
+                <p>Feel free to reach out to me via email or LinkedIn!</p>
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/your-profile">Your Profile</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
